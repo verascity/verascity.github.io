@@ -1,7 +1,23 @@
-<?php $name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+<?php 
+
+$name = $email = $phone = $message = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    
+    $name = test_input($_POST["name"]);
+    $email = test_input($_POST["email"]);
+    $phone = test_input($_POST["phone"]);
+    $message = test_input($_POST["message"]);
+}
+
+function test_input($data) {
+    
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+
 $formcontent="From: $name \n Email: $email \n Phone: $phone \n Message: $message";
 $recipient = "vsticker@ganymedetechnology.com";
 $subject = "Contact Form";
