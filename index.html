@@ -99,12 +99,10 @@
     <fieldset>
         <label for="name">Name*</label>
       <input id="name" name="name" type="text" tabindex="1" required autofocus>
-        <span class="error"><?php echo $nameErr;?></span>
     </fieldset>
     <fieldset>
         <label for="email">E-mail Address*</label>
       <input type="email" name="email" id="email" tabindex="2" required>
-        <span class="error"><?php echo $emailErr;?></span>
     </fieldset>
     <fieldset>
         <label for="phone">Phone Number</label>
@@ -113,7 +111,6 @@
     <fieldset>
       <textarea placeholder="Type your Message Here...." name="message" tabindex="4" required></textarea>
     </fieldset>
-      <span class="error"><?php echo $messageErr;?></span>
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
