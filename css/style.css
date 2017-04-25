@@ -213,30 +213,30 @@ i {
     }
     
   .list-col {
-    min-height: 630px;
+    min-height: 70%;
     width: 23%;
     float: right;
     text-align: left;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
     border-right: 4px dotted #FEFEFD;
+    padding-top: 200px;
     padding-bottom: 15px;
     }
     
     .sample-col {
-        min-height: 630px;
-        min-height: 630px;
+        height: 90%;
         width: 73%;
         border-bottom-left-radius: 50px;
         border-top-left-radius: 50px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
         float: left;
-        padding: 5px;
+        padding: 5px 5px 20px 5px;
     }
     
      .list-col > ul li {
-        padding: 3px;
+        padding: 10px 0px;
          font-size: 18px;
     }
 }
@@ -246,7 +246,7 @@ i {
         width: 20%;
         padding: 15px 10px 5px 0px;
         text-align: left;
-        height: 90%;
+        height: 92%;
     }
     
     .list-col > ul li {
@@ -289,6 +289,7 @@ i {
 #contact {
   margin-bottom: 10%;
   padding: 2%;
+  text-align: center;
 }
 
 #contact > h2 {
@@ -303,80 +304,11 @@ i {
   content: '';
 }
 
-.contact-info {
-    display: inline;
-    text-align: center;
-    padding: 40px;
-    width: 25%;
-}
-
-.contact-form {
-    display: inline;
-    float: right;
-}
-
-form {
-    text-align: left;
-    margin: auto;
-    padding: 0px 30px 10px 0px;
-}
-
-fieldset {
-	border: medium none !important;
-	min-width: 100%;
-}
-
-input[type="text"], input[type="email"], input[type="tel"], textarea {
-	width: 100%;
-	border: 1px solid #CCC;
-	padding: 10px;
-    font-family: "Lato", sans-serif;
-}
-
-textarea {
-	height: 200px;
-	max-width: 100%;
-    font-size: 15px;
-}
-
-button[type="submit"] {
-	cursor: pointer;
-	width: 100%;
-	border: none;
-    border-radius: 10px;
-	background: #3F88C5;
-	color: #FEFEFD;
-	margin: 0px 0px 5px 0px;
-	padding: 10px;
-	font-size: 20px;
-}
-
-button[type="submit"]:hover {
-	background:#44BBA4;
-}
-
-input:focus, textarea:focus {
-	outline: 0px;
-	border: 1px solid #393E41;
-}
-
 @media only screen and (min-width: 768px) {
     #contact {
         margin-bottom: 3%;
     }
-    
-    .contact-info {
-        float: left;
-        text-align: left;
-        padding: 8% 3%;
-        font-size: 20px;
-    }
-    
-    form {
-        float: right;
-        width: 50%;
-        padding: 0px;
-    }
+
 }
 
 footer {
