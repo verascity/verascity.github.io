@@ -256,7 +256,8 @@ i {
     
     .sample-col {
         height: 90%;
-        box-shadow: 0px 0px 0px 4px #FEFEFD; 
+        box-shadow: 0px 0px 0px 4px #FEFEFD;
+        padding-bottom: 30px;
     }
     
     #projects {
