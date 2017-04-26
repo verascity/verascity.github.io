@@ -173,6 +173,8 @@ i {
   max-width: 100%;
   min-height: 400px;
   margin: 4px 6px;
+  border: 4px dotted #FEFEFD;
+  border-radius: 50px;
 }
 
 #projects:after {
@@ -187,6 +189,7 @@ i {
     color: #FEFEFD;
     margin: auto;
     text-align: center;
+    border-radius: 50px;
 }
 
 .list-col > ul a {
@@ -203,8 +206,7 @@ i {
 
 .sample-col {
     background-color: #FEFEFD;
-    border: 4px dashed #CC3363;
-    border-radius: 50px;
+    border-radius: 0px 0px 50px 50px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -217,22 +219,16 @@ i {
     width: 23%;
     float: right;
     text-align: left;
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 50px;
-    border-right: 4px dotted #FEFEFD;
     padding-top: 200px;
     padding-bottom: 15px;
     }
     
     .sample-col {
-        height: 90%;
+        height: 100%;
         width: 73%;
-        border-bottom-left-radius: 50px;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
         float: left;
         padding: 5px 5px 20px 5px;
+        border-radius: 50px 0px 0px 50px;
     }
     
      .list-col > ul li {
@@ -256,7 +252,6 @@ i {
     
     .sample-col {
         height: 90%;
-        box-shadow: 0px 0px 0px 4px #FEFEFD;
         padding-bottom: 30px;
     }
     
