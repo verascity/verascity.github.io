@@ -166,17 +166,29 @@ header a {
 }
 
 .list-col {
+    position: absolute
     max-width: 100%;
     background-color: #CC3363;
     color: #FEFEFD;
-    text-align: center;
+    margin: auto;
     border-radius: 50px;
+}
+
+.list-col > ul {
+    padding: 0px;
+}
+
+.list-col > ul li {
+    list-style-type: none;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    text-align: center;
 }
 
 .list-col > ul a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 20px
 }
 
 .list-col > ul a:hover {
@@ -204,14 +216,14 @@ header a {
         border-radius: 50px 0px 0px 50px;
     }
     
-  .list-col {
-    text-align: left;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 73%;
-    right: 0;
-    height: 60%;
+    .list-col {
+        text-align: left;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 73%;
+        right: 0;
+        height: 60%;
     }
     
     .list-col > ul {
@@ -220,7 +232,7 @@ header a {
     
      .list-col > ul li {
         padding: 10px 0px;
-         font-size: 18px;
+        font-size: 18px;
     }
 
 }
