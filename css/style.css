@@ -212,11 +212,13 @@ i {
 @media only screen and (min-width: 800px) {
     #projects {
         margin: 1% 0.5% 1% 1%;
+        display: table;
         position: relative;
     }
     
     .sample-col {
         position: relative;
+        display: table-cell;
         height: 100%;
         width: 73%;
         float: left;
@@ -253,6 +255,10 @@ i {
         
     }
     
+    .list-col > ul {
+        padding-top: 10px;
+    }
+    
     .list-col > ul li {
         padding: 20px;
         font-size: 20px;
@@ -265,7 +271,8 @@ i {
     
     
     #projects {
-        margin: 14px 0.5% 14px 1%;
+        margin: 14px 1%;
+        display: block;
     }
     
 }
