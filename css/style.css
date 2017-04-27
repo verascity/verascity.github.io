@@ -192,13 +192,11 @@ header a {
 @media only screen and (min-width: 800px) {
     #projects {
         margin: 1% 0.5% 1% 1%;
-        display: table;
         position: relative;
     }
     
     .sample-col {
         position: relative;
-        display: table-cell;
         height: 100%;
         width: 73%;
         float: left;
