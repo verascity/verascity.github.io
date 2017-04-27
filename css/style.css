@@ -151,28 +151,10 @@ header a {
   border-bottom: 1px dashed #236152;
 }
 
-#icons {
-  text-align: center;
-  padding: 10px 0px 10px 0px;
-}
-
-#icons > li {
-  display: inline-block;
-}
-
-#icons > a {
-  border: 0px !important;
-}
-
-i {
-  color: #3F88C5;
-  padding: 0rem 1rem;
-}
-
 #projects {
   max-width: 100%;
   min-height: 400px;
-  margin: 4px 6px;
+  margin: 10px 6px;
   border: 4px dashed #FEFEFD;
   border-radius: 50px;
 }
@@ -184,7 +166,7 @@ i {
 }
 
 .list-col {
-    max-width: 90%;
+    max-width: 100%;
     background-color: #CC3363;
     color: #FEFEFD;
     margin: auto;
@@ -314,6 +296,24 @@ i {
   display: table;
   clear: both;
   content: '';
+}
+
+#icons {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+#icons > li {
+  display: inline-block;
+}
+
+#icons > a {
+  border: 0px !important;
+}
+
+i {
+  color: #3F88C5;
+  padding: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
