@@ -173,7 +173,7 @@ i {
   max-width: 100%;
   min-height: 400px;
   margin: 4px 6px;
-  border: 4px dotted #FEFEFD;
+  border: 4px dashed #FEFEFD;
   border-radius: 50px;
 }
 
@@ -209,21 +209,14 @@ i {
     border-radius: 0px 0px 50px 50px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
     #projects {
         margin: 1% 0.5% 1% 1%;
-    }
-    
-  .list-col {
-    min-height: 70%;
-    width: 23%;
-    float: right;
-    text-align: left;
-    padding-top: 200px;
-    padding-bottom: 15px;
+        position: relative;
     }
     
     .sample-col {
+        position: relative;
         height: 100%;
         width: 73%;
         float: left;
@@ -231,18 +224,33 @@ i {
         border-radius: 50px 0px 0px 50px;
     }
     
+  .list-col {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 73%;
+    right: 0;
+    height: 60%;
+    }
+    
+    .list-col > ul {
+        padding-top: 20%;       
+    }
+    
      .list-col > ul li {
         padding: 10px 0px;
          font-size: 18px;
     }
+
 }
 
 @media only screen and (min-width: 1200px) {
     .list-col {
-        width: 20%;
+        width: 25%;
         padding: 15px 10px 5px 0px;
         text-align: left;
-        height: 92%;
+        
     }
     
     .list-col > ul li {
@@ -254,6 +262,7 @@ i {
         height: 90%;
         padding-bottom: 30px;
     }
+    
     
     #projects {
         margin: 14px 0.5% 14px 1%;
