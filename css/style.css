@@ -208,7 +208,7 @@ header a {
     
     .sample-col {
         position: relative;
-        min-height: 600px;
+        min-height: 650px;
         height: 90%;
         width: 73%;
         float: left;
@@ -220,7 +220,7 @@ header a {
         background-color: transparent;
         text-align: left;
         position: absolute;
-        top: 250px;
+        top: 0;
         bottom: 0;
         left: 75%;
         right: 0;
@@ -228,7 +228,7 @@ header a {
     }
     
     .list-col > ul {
-        padding-top: 20%;       
+        padding-top: 40%;       
     }
     
      .list-col > ul li {
@@ -246,8 +246,7 @@ header a {
     }
     
     .list-col > ul {
-        padding-top: 0px;
-        margin-top: -5px;
+        padding-top: 40px;
     }
     
     .list-col > ul li {
