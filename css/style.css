@@ -209,7 +209,7 @@ header a {
     
     .sample-col {
         position: relative;
-        height: 100%;
+        height: 90%;
         width: 73%;
         float: left;
         padding: 5px 5px 20px 5px;
@@ -217,13 +217,14 @@ header a {
     }
     
     .list-col {
+        background-color: transparent;
         text-align: left;
         position: absolute;
-        top: 0;
+        top: 250;
         bottom: 0;
-        left: 73%;
+        left: 75%;
         right: 0;
-        height: 60%;
+        height: 90%;
     }
     
     .list-col > ul {
@@ -232,29 +233,30 @@ header a {
     
      .list-col > ul li {
         padding: 10px 0px;
-        font-size: 18px;
+        font-size: 25px;
+        text-align: left;
     }
 
 }
 
 @media only screen and (min-width: 1200px) {
     .list-col {
+        left: 75%;
         width: 25%;
-        padding: 15px 10px 5px 0px;
-        text-align: left;
-        
+        padding: 15px 0px 5px 0px;
     }
     
     .list-col > ul {
-        padding-top: 10px;
+        padding-top: 20px;
     }
     
     .list-col > ul li {
         padding: 20px;
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .sample-col {
+        width: 73%;
         height: 90%;
         padding-bottom: 30px;
     }
