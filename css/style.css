@@ -7,9 +7,9 @@ html {
 
 body {
   margin-top: 75px;
-  color: #393E41;
+  color: #FFFFFF;
   font-family: "Lato", sans-serif;
-  background-color: #CC3363;
+  background-color: #263238;
 }
 
 ul {
@@ -26,14 +26,14 @@ a {
 }
 
 nav {
-  background-color: #CC3363;
+  background-color: #263238;
   position: absolute;
   width: 100%;
   height: 50px;
   top: 0;
   left: 0;
-  color: #FEFEFD;
-  border-bottom: 2px dashed #FEFEFD;
+  color: #FFFFFF;
+  border-bottom: 2px dashed #FFFFFF;
 }
 
 nav > span {
@@ -54,14 +54,15 @@ nav > ul li {
   display: inline-block;
   line-height: 50px;
   letter-spacing: 0.1rem;
-  color: #FEFEFD;
+  color: #FFFFFF;
   padding: 0px 1px;
   font-size: 10px;
 }
 
 nav > ul li:hover {
-  background-color: #FEFEFD;
-  color: #44BBA4;
+  background-color: #FFFFFF;
+  color: #007c91;
+  font-weight: 800;
 }
 
 @media only screen and (min-width: 450px) {
@@ -78,9 +79,10 @@ nav > ul li:hover {
 }
 
 .box {
-  border: 4px solid #CC3363;
-  box-shadow: 0px 0px 0px 4px #FEFEFD;
-  background: #FEFEFD;
+  border: 4px solid #000a12;
+  box-shadow: 0px 0px 0px 4px #FFFFFF;
+  background: #4f5b62;
+  color: #FFFFFF;
   border-radius: 50px;
   padding: 1%;
   margin: 0% 1%;
@@ -94,6 +96,12 @@ header {
 header h1 {
   font-family: "Limelight", cursive;
   display: block;
+  color: #4f5b62;
+    text-shadow: 
+    -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+     1px 1px 0 #FFF;
 }
 
 .selfie {
@@ -145,18 +153,18 @@ header h1 {
 }
 
 header a {
-  color: #236152;
+  color: #62efff;
 }
 
 .dashed {
-  border-bottom: 1px dashed #236152;
+  border-bottom: 1px dashed #00acc1;
 }
 
 #projects {
   max-width: 100%;
   min-height: 200px;
   margin: 10px 6px;
-  border: 4px dashed #FEFEFD;
+  border: 4px dashed #FFFFFF;
   border-radius: 50px;
 }
 
@@ -168,8 +176,8 @@ header a {
 
 .list-col {
     max-width: 100%;
-    background-color: #CC3363;
-    color: #FEFEFD;
+    background-color: #263238;
+    color: #FFFFFF;
     margin: auto;
     border-radius: 50px;
 }
@@ -191,12 +199,12 @@ header a {
 }
 
 .list-col > ul a:hover {
-    color: #44bba4;
+    color: #5ddef4;
     font-weight: bold;
 }
 
 .sample-col {
-    background-color: #FEFEFD;
+    background-color: #FFFFFF;
     border-radius: 0px 0px 50px 50px;
 }
 
@@ -286,7 +294,7 @@ header a {
 }
 
 figure > a {
-    color: #3F88C5;
+    color: #007c91;
 }
 
 .caption-italic  {
@@ -297,7 +305,7 @@ figure > a {
 }
 
 .caption-italic > a {
-    color: #3F88C5;
+    color: #007c91;
 }
 
 #contact {
@@ -332,7 +340,7 @@ figure > a {
 }
 
 i {
-  color: #3F88C5;
+  color: #00acc1;
   padding: 1rem;
 }
 
@@ -344,15 +352,15 @@ i {
 }
 
 footer {
-  border-top: 2px dashed #FEFEFD;
-  background-color: #CC3363;
+  border-top: 2px dashed #FFFFFF;
+  background-color: #263238;
   position:absolute;
   bottom:0;
   left: 0;
   width:100%;
   height:20px;
   text-align: center;
-  color: #FEFEFD;
+  color: #FFFFFF;
 }
 
 .hidden {
