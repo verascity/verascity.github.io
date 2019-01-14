@@ -326,21 +326,13 @@ figure > a {
   content: '';
 }
 
-#icons {
-  text-align: center;
+icons {
   padding: 10px 0px 10px 0px;
 }
 
-#icons > li {
-  display: inline-block;
-}
-
-#icons > a {
-  border: 0px !important;
-}
 
 i {
-  color: #00acc1;
+  color: #62efff;
   padding: 1rem;
 }
 
