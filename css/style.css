@@ -152,8 +152,22 @@ header h1 {
   display: block;
 }
 
+header p {
+    display: inline-block;
+}
+
 header a {
   color: #62efff;
+}
+
+header ul {
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+header ul li {
+    margin: 0px 20px;
 }
 
 .dashed {
@@ -326,14 +340,9 @@ figure > a {
   content: '';
 }
 
-icons {
-  padding: 10px 0px 10px 0px;
-}
-
-
-i {
+svg {
   color: #62efff;
-  padding: 1rem;
+    padding: 5px;
 }
 
 @media only screen and (min-width: 768px) {
