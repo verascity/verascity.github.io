@@ -241,16 +241,20 @@ footer {
 @media only screen and (min-width: 800px) {
     
     .box {
-        padding: 2% 2% 4% 2%;
+        padding: 1% 2% 3% 2%;
         margin: 5% 10% 0%;
     }
     
     
     #projects {
-        margin: 1% 0.5% 1% 1%;
+        margin: 3% 9% 9%;
         position: relative;
     }
-    
+   
+}
+
+@media only screen and (min-width: 1200px) {
+     
     .sample-col {
         position: relative;
         min-height: 650px;
@@ -270,6 +274,7 @@ footer {
         left: 75%;
         right: 0;
         height: 90%;
+        width: 25%;
     }
     
     .list-col > ul {
@@ -282,32 +287,9 @@ footer {
         text-align: left;
     }
 
-}
-
-@media only screen and (min-width: 1200px) {
-    .list-col {
-        left: 75%;
-        width: 25%;
-    }
-    
-    .list-col > ul {
-        padding-top: 40px;
-    }
-    
-    .list-col > ul li {
-        padding: 20px;
-        font-size: 25px;
-    }
-    
-    .sample-col {
-        width: 73%;
-        height: 90%;
-        padding-bottom: 30px;
-    }
-    
     
     #projects {
-        margin: 4% 2%;
+        margin: 2% 9% 4%;
         display: block;
     }
     
