@@ -164,7 +164,7 @@ header ul li {
 }
 
 .project-item > h2 {
-    font-size: 35px;
+    font-size: 35px; 
     font-family: "Limelight", cursive;
     color: #263238;
     text-shadow: 
@@ -179,6 +179,10 @@ header ul li {
     margin: auto;
     padding: 15px;
     font-size: 18px;
+}
+
+.project-item > p > a {
+    color: #5ddef4;
 }
 
 figure > a {
