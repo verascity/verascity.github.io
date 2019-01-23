@@ -140,16 +140,17 @@ header ul li {
     list-style-type: none;
     margin-left: 0px !important;
     padding-left: 0px !important;
+    padding-bottom: 5px;
     text-align: center;
 }
 
 .list-col > ul a {
-    color: white;
-    font-size: 20px
+    color: #F8F8F8;
+    font-size: 20px;
 }
 
 .list-col > ul a:hover {
-    color: #c3fdff;
+    color: #90CAF9;
     font-weight: bold;
 }
 
@@ -287,11 +288,11 @@ footer {
     }
     
     .list-col > ul {
-        padding-top: 40%;       
+        padding-top: 25%;       
     }
     
      .list-col > ul li {
-        padding: 10px 0px;
+        padding: 10px 2px;
         font-size: 20px;
         text-align: left;
     }
