@@ -163,9 +163,9 @@ header ul li {
     padding-top: 0px;
 }
 
-#project-header {
-    font-size: 35px !important; 
-    font-family: "Limelight", cursive !important;
+.project-header {
+    font-size: 35px; 
+    font-family: "Limelight", cursive;
     color: #263238;
     text-shadow: 
     -1px -1px 0 #F8F8F8,  
