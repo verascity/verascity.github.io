@@ -163,9 +163,9 @@ header ul li {
     padding-top: 0px;
 }
 
-.project-item > h2 {
-    font-size: 35px; 
-    font-family: "Limelight", cursive;
+#project-header {
+    font-size: 35px !important; 
+    font-family: "Limelight", cursive !important;
     color: #263238;
     text-shadow: 
     -1px -1px 0 #F8F8F8,  
@@ -189,14 +189,15 @@ figure > a {
     color: #90CAF9;
 }
 
-.caption-italic  {
-    font-style: italic;
+figcaption  {
     margin: auto;
-    max-width: 75%;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 5% 1% 1%;
     word-wrap: break-word;
 }
 
-.caption-italic > a {
+figcaption > a {
     color: #90CAF9;
 }
 
@@ -254,7 +255,11 @@ footer {
         margin: 3% 9% 9%;
         position: relative;
     }
-   
+ 
+    
+    figcaption {
+        max-width: 70%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
