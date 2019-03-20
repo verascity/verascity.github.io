@@ -261,30 +261,6 @@ footer {
     footer {
         padding: 0.25%;
     }
-  
-  .list-col {
-        background-color: transparent;
-        text-align: left;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 75%;
-        right: 0;
-        height: 90%;
-        width: 25%;
-    }
-    
-    .list-col > ul {
-        margin-top: 0px;
-        padding-top: 5%;       
-    }
-    
-     .list-col > ul li {
-        padding: 10px 2px;
-        font-size: 20px;
-        text-align: left;
-    }
-  
     
 }
 
@@ -313,8 +289,7 @@ footer {
     }
     
     .list-col > ul {
-        margin-top: 0px;
-        padding-top: 5%;       
+        padding-top: 10%;       
     }
     
      .list-col > ul li {
